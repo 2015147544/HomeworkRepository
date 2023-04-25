@@ -1,0 +1,151 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap');
+
+
+
+body 		{	background-color: #C2C4FF; }
+
+
+h1 	 	 	{  font-family: 'Roboto', sans-serif;
+					font-size: 3em;
+					text-allign: center;
+					color: #292929;
+					margin: 20px; }
+
+
+h1+p 		{  color: MidnightBlue; 
+					border-color: MidnightBlue;  
+					margin: 20px;
+					border: 20px Solid black; 
+					border-width: 2px;
+					padding: 5px;
+					padding-top: 15px; }
+
+
+
+
+
+form > p 	{  color: #040444; }
+
+
+p				{  font-family: 'Noto Sans KR', sans-serif;
+					font-size: 14pt;
+					font-weight: bolder;
+					text-indent: 1.0em;
+					height : 4.5%;
+					width: 92%;   }
+
+
+
+button		{ 	background-color: #39AF20; /* Green */
+					border: none;
+					color: white;
+					padding: 10px 20px;
+					text-align: center;
+					text-decoration: none;
+					display: inline-block;
+					font-size: 16px;
+					margin: 4px 2px; }
+
+
+p>input		{	background-color: #F33120; /* Tomato red */
+					border: none;
+					color: white;
+					padding: 10px 20px;
+					text-align: center;
+					text-decoration: none;
+					display: inline-block;
+					font-size: 16px;
+					margin: 4px 2px; }
+	
+
+
+/* 속성 10가지
+
+	background-color 		O			배경색
+	text-allign					O  		텍스트 정렬
+	padding						O          패딩
+	margin						O          마진
+	border						O          보더(경계)
+	font-size					O          폰트 사이즈 변경
+	font-family			     	O           폰트 크기 변경
+	color                         O          콘텐츠(글자 색깔)
+	width							O           폭 조절
+	height                       O           높이 조절
+	
+*/
+
+
+.mid		{	text-allgn : center;
+				width : 1020px;
+				margin: 0 auto; }
+
+
+
+
+
+
+h2			{	position : relative;
+				font-family: 'Roboto', sans-serif;
+				font-size: 2em;
+				color: #292929;  
+				animation-name: titlemove;
+				animation-duration : 2s;
+				animation-timing-function: ease-out; }
+				
+				
+				
+h3			{	font-family: 'Roboto', sans-serif;
+				font-size: 1.5em;
+				text-allign: center;
+				color: #292929;   }
+
+
+.box		{ 	border-style: solid;
+				border-width: thin;
+				border-color: black;
+				width : 400px;
+				height: 400px; }
+
+
+img 			{ 	transition: width 2s, height 2s;}
+
+img:hover {	width: 400px;
+					height: 400px; }
+				
+
+@keyframes titlemove 
+{
+	0% {left: 100%;}
+	100% {left : 0px;}
+}
+
+
+
+.exp		{	font-family: 'Noto Sans KR', sans-serif;
+				font-weight: bolder;
+				text-indent: 0.2em;
+				
+				column-count: 2;
+				column-gap: 20px ;
+				column-width:  300px;
+				column-rule-style:  solid;
+				column-rule-width:  1px; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
